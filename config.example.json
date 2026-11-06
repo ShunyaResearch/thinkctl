@@ -1,0 +1,46 @@
+{
+ "test_email_address": "your-test-address@example.com",
+ "test_sender_name": "Your Test Sender",
+ "holo_server": "http://127.0.0.1:8090/v1/chat/completions",
+ "screen_width_for_model": 1280,
+ "panel": {
+  "edge": "bottom",
+  "size_px": 0
+ },
+ "max_steps": 10,
+ "goal_timeout_s": 120,
+ "max_retries": 2,
+ "irreversible_words": [
+  "send",
+  "delete",
+  "trash",
+  "bin",
+  "discard",
+  "remove",
+  "buy",
+  "purchase",
+  "pay",
+  "order",
+  "checkout",
+  "shut down",
+  "shutdown",
+  "power off",
+  "restart",
+  "log out",
+  "sign out",
+  "unsubscribe",
+  "spam",
+  "block",
+  "forward"
+ ],
+ "blocked_keys": [
+  "ctrl+enter",
+  "ctrl+return",
+  "delete",
+  "shift+delete",
+  "ctrl+w",
+  "ctrl+q",
+  "alt+f4",
+  "super"
+ ]
+}
